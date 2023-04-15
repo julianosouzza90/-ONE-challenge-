@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  
+
+  <title>Challenge - Encriptador de palavras</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img  src="assets/images/logo.png" alt=""> ONE - Challenge
+    </div>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/juliano-souza-dev/" target="blank">
+        <img  class='icon' src="/assets/images/linkedin.png" alt="linkedin" >
+        Linkedin
+      </a></li>
+      <li><a href="https://github.com/julianosouzza90" target="blank">
+          <img class='icon' src="/assets/images/github-mark-white.png" alt="github" >
+          Github
+        </a></li>
+     
+    </ul>
+  </header>
+  <main>
+    <section class="input-area">
+      <textarea  id="input-text" placeholder="Digite aqui o texto"></textarea>
+       <div class="footer">
+          <span><b>!</b>Apenas letras minusculas e sem acento.</span>
+          <div class="wrapper-buttons">
+            <button class="btn btn-encrypt" id="btn-encrypt">Criptografar</button>
+            <button class="btn" id="btn-decrypt">Descriptografar</button>
+          </div>
+       </div>
+    </section>
+    <section class="output-area">
+      <div class="output" id="output">
+        <img src="assets/images/without-message-image.png" alt="jovem segurando uma lupa">
+        <p>Sem mensagens por aqui. Que tal começar a criptografar?</p>
+        <div class="alert" id="alert">Texto copiado</div>
+        <button class="hidden" id="btn-copy-text">Copiar</button>
+      </div>
+    </section>
+  </main>
+  <script src="assets/js/encryptAndDecryptWords.js"></script>
+  <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
