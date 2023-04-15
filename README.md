@@ -1,1 +1,3 @@
-# -ONE-challenge-
+# One - Encriptador 
+## Primeiro desafio do programa ONE - Oracle Next Education
+O projeto Git-blog  é uma aplicação desenvolvida para colocar em prática os conhecimentos adquiridos no terceiro módulo do curso Ignite React da Rocketseat. O objetivo do projeto é criar um blog que consome a API do Github para obter dados sobre issues abertas em repositórios públicos da minha autoria. A aplicação conta com uma barra de busca que permite ao usuário encontrar issues (posts) por palavra-chave. Vale ressaltar que apenas o layout (via Figma) foi fornecido para este projeto, todo o código foi desenvolvido por mim, atestando a efetividade do aprendizado adquirido durante o módulo do curso.
